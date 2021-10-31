@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main () {
+	float av1, av2, avf, media;
+	printf("insira aqui sua nota da av1: \n");
+	scanf("%f", &av1);
+	printf("insira aqui sua nota da av2: \n");
+	scanf("%f", &av2);
+	printf("insira aqui sua nota da avf: \n");
+	scanf("%f", &avf);
+	media = (av1 + av2 + avf)/3;
+	printf("sua media final eh de %f \n", media);
+	return 0;
+}
